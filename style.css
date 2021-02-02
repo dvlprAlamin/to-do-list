@@ -116,3 +116,35 @@ input {
 .delete {
 	display: none;
 }
+#close-popup{
+	position: fixed;
+	height: 10rem;
+	width: 20rem;
+	margin: 0 auto;
+	top:50vh;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	display: none;
+	z-index: 5;
+	box-shadow: 0px 5px 30px #02020265;
+	text-align: center;
+	padding: 5px;
+}
+#close-popup h3{
+	color: red;
+	text-transform:none;
+	margin-bottom: 30px;
+}
+#close-popup button{
+	padding: 10px 15px;
+	outline: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+#close-popup button:hover{
+	background-color:#025f70;
+	color: #ffffff;
+	transition: .5s;
+}
